@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Pharmacy_DAO.Admin>
+@{
+    ViewData["Title"] = "Default";
+}
+
+<h1>Default</h1>
+
+<p>
+    <a asp-action="AddAdminDetails">Add</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.AdminFirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AdminLastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Location)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Country)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AdminFirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AdminLastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Location)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.City)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Country)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Phone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    <a asp-action="UpdateAdminDetails" asp-route-id="@item.AdminId">Update</a>|
+                    <a asp-action="GetAdminDetails" asp-route-id="@item.AdminId">Details</a>|
+                    <a asp-action="RemoveAdminDetails" asp-route-id="@item.AdminId">Delete</a>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+

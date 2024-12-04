@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Pharmacy_DAO.OrderDetail>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Default</h1>
+
+<p>
+    <a asp-action="AddOrderDetails">New Order Detail</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MedicineId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UnitPrice)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OrderId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MedicineId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UnitPrice)
+                </td>
+                <td>
+                    <a asp-action="UpdateOrderDetails" asp-route-id="@item.OrderDetailId">Update</a>|
+                    <a asp-action="GetOrderDetails" asp-route-id="@item.OrderDetailId">Details</a>|
+                    <a asp-action="RemoveOrderDetails" asp-route-id="@item.OrderDetailId">Delete</a>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+

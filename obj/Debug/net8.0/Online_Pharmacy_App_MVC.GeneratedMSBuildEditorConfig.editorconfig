@@ -1,0 +1,219 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Online_Pharmacy_App_MVC
+build_property.RootNamespace = Online_Pharmacy_App_MVC
+build_property.ProjectDir = C:\Users\datla.reddy\source\repos\Pharmacy_DAO\Online_Pharmacy_App_MVC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\datla.reddy\source\repos\Pharmacy_DAO\Online_Pharmacy_App_MVC
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Admins/AddAdminDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zXEFkZEFkbWluRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Admins/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Admins/GetAdminDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zXEdldEFkbWluRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Admins/RemoveAdminDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zXFJlbW92ZUFkbWluRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Admins/UpdateAdminDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zXFVwZGF0ZUFkbWluRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Customers/AddCustomerDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEFkZEN1c3RvbWVyRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Customers/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Customers/GetCustomerDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEdldEN1c3RvbWVyRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Customers/RemoveCustomerDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXFJlbW92ZUN1c3RvbWVyRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Customers/UpdateCustomerDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXFVwZGF0ZUN1c3RvbWVyRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Logins/AddLoginDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5zXEFkZExvZ2luRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Logins/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5zXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Logins/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5zXEZvcmdvdFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Logins/GetLoginDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5zXEdldExvZ2luRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Logins/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5zXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Logins/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5zXExvZ291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Logins/RemoveLoginDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5zXFJlbW92ZUxvZ2luRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Logins/UpdateLoginDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5zXFVwZGF0ZUxvZ2luRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Medicines/AddMedicineDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNpbmVzXEFkZE1lZGljaW5lRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Medicines/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNpbmVzXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Medicines/GetMedicineDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNpbmVzXEdldE1lZGljaW5lRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Medicines/RemoveMedicineDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNpbmVzXFJlbW92ZU1lZGljaW5lRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Medicines/UpdateMedicineDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNpbmVzXFVwZGF0ZU1lZGljaW5lRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Medicines/UserMedList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNpbmVzXFVzZXJNZWRMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/OrderDetails/AddOrderDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXEFkZE9yZGVyRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/OrderDetails/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/OrderDetails/GetOrderDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXEdldE9yZGVyRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/OrderDetails/RemoveOrderDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXFJlbW92ZU9yZGVyRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/OrderDetails/UpdateOrderDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXFVwZGF0ZU9yZGVyRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Orders/AddOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEFkZE9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Orders/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Orders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Orders/FetchOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEZldGNoT3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Orders/RemoveOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXFJlbW92ZU9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Orders/UpdateOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXFVwZGF0ZU9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Shared/_AdminsLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbnNMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Shared/_CustomerLatout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DdXN0b21lckxhdG91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Shared/_LoginsLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbnNMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Shared/_MedicineLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZWRpY2luZUxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Shared/_OrderDetailsLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9PcmRlckRldGFpbHNMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Shared/_OrderLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9PcmRlckxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datla.reddy/source/repos/Pharmacy_DAO/Online_Pharmacy_App_MVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-yy7ybp0tde

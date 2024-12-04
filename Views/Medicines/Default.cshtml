@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Pharmacy_DAO.Medicine>
+@{
+    ViewData["Title"] = "Default";
+}
+
+<h1>Default</h1>
+
+<p>
+    <a asp-action="AddMedicineDetails">New Medicine</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MedicineName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MedicineDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MedicineType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UnitPrice)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MedicineName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MedicineDescription)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MedicineType)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UnitPrice)
+                </td>
+                <td>
+                    <a asp-action="UpdateMedicineDetails" asp-route-id="@item.MedicineId">Update</a>|
+                    <a asp-action="GetMedicineDetails" asp-route-id="@item.MedicineId">Details</a>|
+                    <a asp-action="RemoveMedicineDetails" asp-route-id="@item.MedicineId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

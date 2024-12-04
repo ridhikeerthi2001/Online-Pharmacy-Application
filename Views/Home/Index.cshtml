@@ -1,0 +1,53 @@
+﻿@{
+   ViewData["Title"] = "Home";
+}
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>@ViewData["Title"]</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<style>
+       body {
+           background-image: url('https://th.bing.com/th/id/OIP.evZxrP0o1oAPD9SHDvupbgHaEK?w=342&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+           background-size: cover;
+           background-position: center;
+           color: white;
+           height: 100vh;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+       }
+       .jumbotron {
+           background-color: unset;
+           color: black;
+           padding: 2rem 2rem;
+           border-radius: 10px;
+       }
+       .btn-primary {
+           background-color: darkblue;
+           border: none;
+       }
+           .btn-primary:hover {
+               background-color: #0056b3;
+           }
+       .card {
+           background: rgba(255, 255, 255, 0.8);
+           border-radius: 10px;
+           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+           margin-top: 20px;
+       }
+</style>
+</head>
+<body>
+<div class="container text-center">
+<div class="jumbotron">
+<h1 class="display-4">Welcome to Online Pharmacy</h1>
+<p class="lead">Your trusted source for medications and health products.</p>
+<a class="btn btn-primary btn-lg"   asp-controller="Logins" asp-action="Login" role="button">Shop Now</a>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

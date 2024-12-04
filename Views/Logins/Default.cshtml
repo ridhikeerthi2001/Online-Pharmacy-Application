@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Pharmacy_DAO.Login>
+@{
+    ViewData["Title"] = "Default..";
+}
+
+<h1>Default</h1>
+
+<p>
+    <a asp-action="AddLoginDetails">New Login</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LoginType)
+            </th>
+            
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Password)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LoginType)
+                </td>
+                <td>
+                    <a asp-action="UpdateLoginDetails" asp-route-id="@item.LoginId">Update</a>|
+                    <a asp-action="GetLoginDetails" asp-route-id="@item.LoginId">Details</a>|
+                    <a asp-action="RemoveLoginDetails" asp-route-id="@item.LoginId">Delete</a>
+                </td>
+               
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
+

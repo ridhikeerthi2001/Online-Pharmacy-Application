@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Pharmacy_DAO.Order>
+@{
+    ViewData["Title"] = "Default";
+}
+
+<h1>Default</h1>
+
+<p>
+    <a asp-action="AddOrder">New Order</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalPrice)
+            </th>
+            
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CustomerId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TotalPrice)
+                </td>
+                <td>
+                    <a asp-action="UpdateOrder" asp-route-id="@item.OrderId">Update</a>|
+                    <a asp-action="FetchOrder" asp-route-id="@item.OrderId">Details</a>|
+                    <a asp-action="RemoveOrder" asp-route-id="@item.OrderId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

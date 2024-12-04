@@ -1,0 +1,89 @@
+﻿@model Pharmacy_DAO.CustomerLoginViewModel
+@{
+    ViewData["Title"] = "Customer Registration";
+}
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *,DNTCaptcha.Core
+<h1>Customer Registration</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddCustomerDetails">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Login.LoginType" value="C" />
+            <input type="hidden" asp-for="Login.LoginId" value="0" />
+            <div class="form-group">
+                <label asp-for="Login.UserName" class="control-label"></label>
+                <input asp-for="Login.UserName" class="form-control" />
+                <span asp-validation-for="Login.UserName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Login.Password" class="control-label"></label>
+                <input asp-for="Login.Password" class="form-control" />
+                <span asp-validation-for="Login.Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customer.CustomerFirstName" class="control-label"></label>
+                <input asp-for="Customer.CustomerFirstName" class="form-control" />
+                <span asp-validation-for="Customer.CustomerFirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customer.CustomerLastName" class="control-label"></label>
+                <input asp-for="Customer.CustomerLastName" class="form-control" />
+                <span asp-validation-for="Customer.CustomerLastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customer.Location" class="control-label"></label>
+                <input asp-for="Customer.Location" class="form-control" />
+                <span asp-validation-for="Customer.Location" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customer.City" class="control-label"></label>
+                <input asp-for="Customer.City" class="form-control" />
+                <span asp-validation-for="Customer.City" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customer.Country" class="control-label"></label>
+                <input asp-for="Customer.Country" class="form-control" />
+                <span asp-validation-for="Customer.Country" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customer.Phone" class="control-label"></label>
+                <input asp-for="Customer.Phone" class="form-control" />
+                <span asp-validation-for="Customer.Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customer.Email" class="control-label"></label>
+                <input asp-for="Customer.Email" class="form-control" />
+                <span asp-validation-for="Customer.Email" class="text-danger"></span>
+            </div>
+            <div class="input-group mb-3">                     
+                            <dnt-captcha asp-captcha-generator-max="999999" 
+                                asp-captcha-generator-min="111111" 
+                                asp-captcha-generator-language="English"
+                                asp-captcha-generator-display-mode="ShowDigits" 
+                                asp-use-relative-urls="true" 
+                                asp-placeholder="Enter Captcha" 
+                                asp-validation-error-message="Please enter the security code." 
+                                asp-font-name="Tahoma" 
+                                asp-font-size="20" 
+                                asp-fore-color="#333333"
+                                asp-back-color="#ccc" 
+                                asp-text-box-class="text-box form-control" 
+                                asp-text-box-template="<span class='input-group-prepend'>
+                            <span class='form-group-text'></span></span>{0}"
+                                asp-validation-message-class="text-danger" 
+                                asp-refresh-button-class="fas fa-redo btn-sm" asp-use-noise="false" />                     
+                            </div>
+            <div class="form-group">
+                <input type="submit" value="SignIn" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
